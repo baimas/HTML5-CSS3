@@ -1,0 +1,40 @@
+body{
+ background: rgb(255, 246, 218);
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+header{
+    margin-top: 70px;
+}
+
+
+h1{
+    color: rgb(6, 14, 85);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    color: rgb(6, 14, 85);
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+.img_padrao {
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.img_parceiros{
+
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.img_logo{
+
+    width: 30px;
+}
