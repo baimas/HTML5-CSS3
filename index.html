@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Meu Site</title>
 </head>
+
 <body>
-    
+
     <nav>
         <p>Minha Home</p>
         <ul>
-            <li>SERVIÇOS</li>
-            <li>CLIENTES</li>
-            <li>PARCEIROS</li>
-            <li>TIME</li>
-            <li>CONTATO</li>
+            <li> <a href="#servicos">SERVIÇOS</a></li>
+            <li> <a href="#clientes">CLIENTES</a></li>
+            <li> <a href="#parceiros">PARCEIROS</a></li>
+            <li> <a href="#times">TIME</a></li>
+            <li> <a href="#contato">CONTATO</a></li>
         </ul>
 
     </nav>
@@ -24,7 +28,7 @@
         <h1>Minha página</h1>
 
         <p>
-            Oferecemos o desenvolvimento dos melhores 
+            Oferecemos o desenvolvimento dos melhores
             sites e Apps para sua empresa.
         </p>
     </header>
@@ -32,9 +36,17 @@
     <section id="servicos">
         <h2>SERVIÇOS</h2>
         <p>
-            Oferecemos os melhores serviços em 
-            desenvolvimento de site e aplicativos 
+            Oferecemos os melhores serviços em Infraestrutura para
+            sua empresa e desenvolvimento de site e aplicativos
         </p>
+        <div>
+            <img src="img/services.jpg" class="img_padrao">
+        </div>
+
+        <div>
+            <img src="img/app.jpg" class="img_padrao">
+        </div>
+
     </section>
 
     <section id="clientes">
@@ -44,15 +56,43 @@
             Todos os nossos clientes são extremamente satisfeitos com os produtos.
             Visamos sempre o bem estar dos clientes
         </p>
+        <div>
+            <img src="img/client.jpg" class="img_padrao">
+        </div>
+
+        <div>
+            <img src="img/client2.jpg" class="img_padrao">
+        </div>
     </section>
 
     <section id="parceiros">
         <h2>PARCEIROS</h2>
 
         <p>
-            Temos parceiros que nos ajudam no desenvolvimento e são grandes influencers
+            Temos parceiros que nos ajudam no desenvolvimento e são e são os
+            maiores influenciadores do mercado na atualidade
 
         </p>
+
+        <div>
+            <a href="https://www.microsoft.com/pt-br" target="_blank">
+                <img src="img/microsoft.jpg" class="img_parceiros">
+            </a>
+
+        </div>
+
+        <div>
+
+            <a href="https://www.google.org/" target="_blank">
+                <img src="img/google.png" class="img_parceiros">
+            </a>
+        </div>
+
+        <div>
+            <a href="https://aws.amazon.com/pt/" target="_blank">
+                <img src="img/amazon.png" width="200px">
+            </a>
+        </div>
 
     </section>
 
@@ -64,15 +104,31 @@
             para proporcionar softwares com qualidade.
 
         </p>
+
+        <div>
+            <img src="img/team.jpg" class="img_padrao">
+        </div>
+
+        <div>
+            <img src="img/team2.jpeg" class="img_padrao">
+        </div>
     </section>
 
-    <section>
+    <section id="contato">
         <h2>CONTATO</h2>
-        
+
         <p>
             Entre em contato conosco
         </p>
-    
+        <div>
+            <a href="mailto:contato@empresa.com.br"> <img src="img/email.png" class="img_logo"> </a>
+            <p> <a href="mailto:contato@empresa.com.br">contato@empresa.com.br</a></p>
+        </div>
+
+        <div>
+            <a href="tel:21995122121"> <img src="img/phone.png" class="img_logo"> </a>
+            <p> <a href="tel:21995122121">(21)95512-2121</a></p>
+        </div>
     </section>
 
 
@@ -81,4 +137,5 @@
 
     </footer>
 </body>
+
 </html>
